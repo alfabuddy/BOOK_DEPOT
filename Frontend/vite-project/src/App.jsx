@@ -2,7 +2,7 @@ import Home from "./home/Home";
 import Courses from "./courses/Courses";
 import Signup from "./components/Signup";
 import Contact from "./components/Contact";
-import About from "./components/About";
+import About from './components/About';
 import {Navigate ,Route , Routes} from "react-router-dom"
 
 
