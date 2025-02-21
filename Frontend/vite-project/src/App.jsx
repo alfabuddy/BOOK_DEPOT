@@ -3,7 +3,8 @@ import Courses from '/src/courses/Courses';
 import {Navigate ,Route , Routes} from "react-router-dom"
 import Signup from "/src/components/Signup"
 import Contact from "/src/components/Contact"
-import About from "/src/components/About"
+import About from './src/components/About';
+
 import  { Toaster } from 'react-hot-toast';
 import { useAuth } from "./context/AuthProvider";
 function App() {
