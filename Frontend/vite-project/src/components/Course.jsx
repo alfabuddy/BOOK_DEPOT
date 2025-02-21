@@ -9,7 +9,7 @@ function Course() {
   useEffect(()=>{
     const getBook = async()=>{
       try {
-       const res=await axios.get("https://book-depot-5.onrender.com/book")
+       const res=await axios.get("https://book-depot-5.onrender.com")
        console.log(res.data)
        setBook(res.data)
       }
