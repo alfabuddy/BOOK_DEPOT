@@ -1,9 +1,10 @@
-import Home from "/src/home/Home"
-import Courses from '/src/courses/Courses';
+import Home from "./home/Home";
+import Courses from "./courses/Courses";
+import Signup from "./components/Signup";
+import Contact from "./components/Contact";
+import About from "./components/About";
 import {Navigate ,Route , Routes} from "react-router-dom"
-import Signup from "/src/components/Signup"
-import Contact from "/src/components/Contact"
-import About from "./src/components/About";
+
 
 
 
